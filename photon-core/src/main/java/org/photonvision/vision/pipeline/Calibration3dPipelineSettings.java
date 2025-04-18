@@ -36,7 +36,7 @@ public class Calibration3dPipelineSettings extends AdvancedPipelineSettings {
 
     public Calibration3dPipelineSettings() {
         super();
-        this.cameraAutoExposure = true;
+        this.cameraAutoExposure = false;
         this.inputShouldShow = true;
         this.outputShouldShow = true;
         this.streamingFrameDivisor = FrameDivisor.HALF;

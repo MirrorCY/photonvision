@@ -392,7 +392,7 @@ public class VisionModule {
             settings.cameraBlueGain = -1;
         }
 
-        settings.cameraAutoExposure = true;
+        settings.cameraAutoExposure = false;
 
         setPipeline(PipelineManager.CAL_3D_INDEX);
     }
